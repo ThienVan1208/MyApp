@@ -1,0 +1,36 @@
+.shapes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.square1, .square2 {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.square1 {
+  background-color: lightblue;
+}
+
+.square2 {
+  background-color: lightgreen;
+}
+
+.custom-button {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #4c2749;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
